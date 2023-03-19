@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03786F76263655F7008498E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03786F75263655F7008498E1 /* AppDelegate.swift */; };
+		03786F78263655F7008498E1 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 03786F77263655F7008498E1 /* art.scnassets */; };
+		03786F7A263655F7008498E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03786F79263655F7008498E1 /* ViewController.swift */; };
+		03786F7D263655F7008498E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03786F7B263655F7008498E1 /* Main.storyboard */; };
+		03786F7F263655FA008498E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03786F7E263655FA008498E1 /* Assets.xcassets */; };
+		03786F82263655FA008498E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03786F80263655FA008498E1 /* LaunchScreen.storyboard */; };
+		03786F90263658A7008498E1 /* AlteredImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03786F8F263658A7008498E1 /* AlteredImage.swift */; };
+		03786F93263658BE008498E1 /* VisualizationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03786F92263658BE008498E1 /* VisualizationNode.swift */; };
+		03786F99263659BB008498E1 /* Yolo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03786F98263659BB008498E1 /* Yolo.swift */; };
+		03786FA126365AF8008498E1 /* Education_416.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 03786FA026365AF8008498E1 /* Education_416.mlmodel */; };
+		03786FA426365C28008498E1 /* ML_Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03786FA326365C28008498E1 /* ML_Utilities.swift */; };
+		03786FA726365E23008498E1 /* CV_Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03786FA626365E23008498E1 /* CV_Utilities.swift */; };
+		03CBEDE5265891B300BBC8BB /* Education_V3_Tiny.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 03CBEDE4265891B300BBC8BB /* Education_V3_Tiny.mlmodel */; };
+		03FA17B5264FD94B00AB1F1B /* Education_V2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 03FA17B4264FD94A00AB1F1B /* Education_V2.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03786F72263655F7008498E1 /* Education_Yolo_V3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Education_Yolo_V3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03786F75263655F7008498E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03786F77263655F7008498E1 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		03786F79263655F7008498E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03786F7C263655F7008498E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03786F7E263655FA008498E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03786F81263655FA008498E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03786F83263655FA008498E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03786F8F263658A7008498E1 /* AlteredImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlteredImage.swift; sourceTree = "<group>"; };
+		03786F92263658BE008498E1 /* VisualizationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualizationNode.swift; sourceTree = "<group>"; };
+		03786F98263659BB008498E1 /* Yolo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Yolo.swift; sourceTree = "<group>"; };
+		03786FA026365AF8008498E1 /* Education_416.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Education_416.mlmodel; sourceTree = "<group>"; };
+		03786FA326365C28008498E1 /* ML_Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ML_Utilities.swift; sourceTree = "<group>"; };
+		03786FA626365E23008498E1 /* CV_Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV_Utilities.swift; sourceTree = "<group>"; };
+		03CBEDE4265891B300BBC8BB /* Education_V3_Tiny.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Education_V3_Tiny.mlmodel; sourceTree = "<group>"; };
+		03FA17B4264FD94A00AB1F1B /* Education_V2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Education_V2.mlmodel; sourceTree = "<group>"; };
+		03FA17C0265620DE00AB1F1B /* Education_Yolo_V3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Education_Yolo_V3.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03786F6F263655F7008498E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03786F69263655F7008498E1 = {
+			isa = PBXGroup;
+			children = (
+				03786F74263655F7008498E1 /* Education_Yolo_V3 */,
+				03786F73263655F7008498E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03786F73263655F7008498E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03786F72263655F7008498E1 /* Education_Yolo_V3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03786F74263655F7008498E1 /* Education_Yolo_V3 */ = {
+			isa = PBXGroup;
+			children = (
+				03FA17C0265620DE00AB1F1B /* Education_Yolo_V3.entitlements */,
+				03786F8E26365897008498E1 /* Machine_Learning */,
+				03786F8D2636586D008498E1 /* Augmented_Reality */,
+				03786F75263655F7008498E1 /* AppDelegate.swift */,
+				03786F77263655F7008498E1 /* art.scnassets */,
+				03786F79263655F7008498E1 /* ViewController.swift */,
+				03786FA626365E23008498E1 /* CV_Utilities.swift */,
+				03786F7B263655F7008498E1 /* Main.storyboard */,
+				03786F7E263655FA008498E1 /* Assets.xcassets */,
+				03786F80263655FA008498E1 /* LaunchScreen.storyboard */,
+				03786F83263655FA008498E1 /* Info.plist */,
+			);
+			path = Education_Yolo_V3;
+			sourceTree = "<group>";
+		};
+		03786F8D2636586D008498E1 /* Augmented_Reality */ = {
+			isa = PBXGroup;
+			children = (
+				03786F8F263658A7008498E1 /* AlteredImage.swift */,
+				03786F92263658BE008498E1 /* VisualizationNode.swift */,
+			);
+			path = Augmented_Reality;
+			sourceTree = "<group>";
+		};
+		03786F8E26365897008498E1 /* Machine_Learning */ = {
+			isa = PBXGroup;
+			children = (
+				03786FA026365AF8008498E1 /* Education_416.mlmodel */,
+				03CBEDE4265891B300BBC8BB /* Education_V3_Tiny.mlmodel */,
+				03FA17B4264FD94A00AB1F1B /* Education_V2.mlmodel */,
+				03786F98263659BB008498E1 /* Yolo.swift */,
+				03786FA326365C28008498E1 /* ML_Utilities.swift */,
+			);
+			path = Machine_Learning;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03786F71263655F7008498E1 /* Education_Yolo_V3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03786F86263655FA008498E1 /* Build configuration list for PBXNativeTarget "Education_Yolo_V3" */;
+			buildPhases = (
+				03786F6E263655F7008498E1 /* Sources */,
+				03786F6F263655F7008498E1 /* Frameworks */,
+				03786F70263655F7008498E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Education_Yolo_V3;
+			productName = Education_Yolo_V3;
+			productReference = 03786F72263655F7008498E1 /* Education_Yolo_V3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03786F6A263655F7008498E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					03786F71263655F7008498E1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 03786F6D263655F7008498E1 /* Build configuration list for PBXProject "Education_Yolo_V3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03786F69263655F7008498E1;
+			productRefGroup = 03786F73263655F7008498E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03786F71263655F7008498E1 /* Education_Yolo_V3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03786F70263655F7008498E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03786F78263655F7008498E1 /* art.scnassets in Resources */,
+				03786F82263655FA008498E1 /* LaunchScreen.storyboard in Resources */,
+				03786F7F263655FA008498E1 /* Assets.xcassets in Resources */,
+				03786F7D263655F7008498E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03786F6E263655F7008498E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CBEDE5265891B300BBC8BB /* Education_V3_Tiny.mlmodel in Sources */,
+				03786F7A263655F7008498E1 /* ViewController.swift in Sources */,
+				03786FA726365E23008498E1 /* CV_Utilities.swift in Sources */,
+				03786F90263658A7008498E1 /* AlteredImage.swift in Sources */,
+				03786F93263658BE008498E1 /* VisualizationNode.swift in Sources */,
+				03FA17B5264FD94B00AB1F1B /* Education_V2.mlmodel in Sources */,
+				03786FA126365AF8008498E1 /* Education_416.mlmodel in Sources */,
+				03786FA426365C28008498E1 /* ML_Utilities.swift in Sources */,
+				03786F99263659BB008498E1 /* Yolo.swift in Sources */,
+				03786F76263655F7008498E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03786F7B263655F7008498E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03786F7C263655F7008498E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03786F80263655FA008498E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03786F81263655FA008498E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03786F84263655FA008498E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03786F85263655FA008498E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03786F87263655FA008498E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Education_Yolo_V3/Education_Yolo_V3.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RA5H4GS362;
+				INFOPLIST_FILE = Education_Yolo_V3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Robert.Education.Education-Yolo-V3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		03786F88263655FA008498E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Education_Yolo_V3/Education_Yolo_V3.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RA5H4GS362;
+				INFOPLIST_FILE = Education_Yolo_V3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Robert.Education.Education-Yolo-V3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03786F6D263655F7008498E1 /* Build configuration list for PBXProject "Education_Yolo_V3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03786F84263655FA008498E1 /* Debug */,
+				03786F85263655FA008498E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03786F86263655FA008498E1 /* Build configuration list for PBXNativeTarget "Education_Yolo_V3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03786F87263655FA008498E1 /* Debug */,
+				03786F88263655FA008498E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03786F6A263655F7008498E1 /* Project object */;
+}
